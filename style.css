@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+fixedbg img {
+    max-width: 200vh;
+    position: fixed;
+    margin: auto;
+    filter: blur(1vh);
+    opacity: 50%;
+    user-select: none;
+}
+
+header {
+    width: 100%;
+    opacity: 40%;
+    position: fixed;
+     z-index: 10;
+     box-shadow: #50BFE6 0px 5px 15px, #50bee677 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
+}
+
+#navbar {
+    display: flex;
+    float: right;
+}
+
+#navbar>a {
+    float: right;
+    padding: 10px 10px;
+}
