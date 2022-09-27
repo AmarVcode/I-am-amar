@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     background-color: black;
@@ -21,7 +21,7 @@ fixedbg img {
 #navbar {
     display: flex;
     width: 100%;
-    box-shadow: #50BFE6 0px 5px 15px,#50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
+    box-shadow: #50BFE6 0px 5px 15px, #50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
     border-radius: 1vh;
     border: 1px solid white;
     text-align: right;
@@ -57,7 +57,7 @@ fixedbg img {
     border-radius: 2vh;
     transform: scale(1.2);
     color: orangered;
-    
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -66,27 +66,29 @@ fixedbg img {
     #navbar {
         display: grid;
         float: left;
+        position: relative;
     }
 
     #navbar>a {
         float: left;
     }
 
-   main{
-    margin-top: 200px;
-   }
-.myimg{
-    max-width: 100%;
-    overflow: hidden;
-    border-radius: 2vh;
-    margin: auto;
-    box-shadow: #50BFE6 0px 5px 15px,#50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
-   }
+    main {
+        margin-top: 200px;
+    }
+
+    .myimg {
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 2vh;
+        margin: auto;
+        box-shadow: #50BFE6 0px 5px 15px, #50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
+    }
 
 }
 
 
-.main-heading{
+.main-heading {
     color: white;
     text-transform: uppercase;
     text-shadow: 1px 1px 20px #50BFE6;
@@ -96,46 +98,46 @@ fixedbg img {
     margin: 10px 100px;
 }
 
-.myimg{
- width: 100vh;
- overflow: hidden;
- border-radius: 2vh;
- margin: auto;
- box-shadow: #50BFE6 0px 5px 15px,#50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
+.myimg {
+    width: 100vh;
+    overflow: hidden;
+    border-radius: 2vh;
+    margin: auto;
+    box-shadow: #50BFE6 0px 5px 15px, #50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
 }
 
-.myimg img{
+.myimg img {
     width: 100vh;
     transition: 2s;
     cursor: pointer;
 }
 
-.myimg img:hover{
+.myimg img:hover {
     transform: scale(1.5);
 }
 
 
-#mybtnpro{
+#mybtnpro {
     display: grid;
     width: 50%;
     margin: auto;
     gap: 20px;
 }
 
-#mybtnpro>a{
+#mybtnpro>a {
     background-color: transparent;
-    box-shadow: #50BFE6 0px 5px 15px,#50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
+    box-shadow: #50BFE6 0px 5px 15px, #50BFE6 0px 30px 60px -12px inset, #50BFE6 0px 18px 36px -18px inset;
     border-radius: 1vh;
     border: 1px solid white;
-     padding: 2vh 4vh;
-     transition: 1s;
-     color: white;
-     text-align: center;
+    padding: 2vh 4vh;
+    transition: 1s;
+    color: white;
+    text-align: center;
 }
 
 
 
-#mybtnpro a:hover{
+#mybtnpro a:hover {
     background-color: #50BFE6;
     filter: blur(1px);
     text-shadow: 2px 2px 5px black;
@@ -145,8 +147,8 @@ fixedbg img {
     color: black;
 }
 
-#mybtnpro a:active{
-   
+#mybtnpro a:active {
+
     text-decoration: none;
     font-size: 3vh;
     text-transform: uppercase;
@@ -156,8 +158,8 @@ fixedbg img {
 }
 
 
-#mybtnpro a{
-   
+#mybtnpro a {
+
     text-decoration: none;
     font-size: 3vh;
     text-transform: uppercase;
@@ -165,4 +167,18 @@ fixedbg img {
     text-shadow: 1px 2px 10px #50BFE6;
     transition: 500ms ease-in-out;
     background-color: transparent;
+
+}
+
+#ffu {
+    display: grid;
+    text-align: center;
+    gap: 20px;
+}
+
+#ffu>input {
+    max-width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
 }
