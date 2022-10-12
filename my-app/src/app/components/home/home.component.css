@@ -4,6 +4,7 @@ main{
     height: 50%;
     margin: 1rem;
     gap: 1rem;
+    user-select: none;
 }
 
 .box{
@@ -11,17 +12,22 @@ main{
     box-shadow:black 0px 5px 15px;
     padding: .4rem;
     transition: 10s ease-in-out;
-    background-color:#FFFF66;
-
-    
+    background-color:#FFCC33;
+    transform: rotateZ(-1deg);
 }
 
 .box:hover{
-    padding: 1rem;
+    padding: .5rem;
     box-shadow:black 0px 5px 15px inset;
-    background-color:#FF355E;
-    transform: rotateZ(180deg);
+    /* background-color:#FF355E; */
+    background:#FF355E;
+    transform: rotateZ(179deg);
+
 }
+
+
+
+
 
 .box img{
     width: 100%;
@@ -29,10 +35,7 @@ main{
     box-shadow:black 0px 5px 15px;
 }
 
-.box img:active{
-    transform: scale(10);
-    box-shadow:black 0px 5px 15px;
-}
+
 
 .box2{
     display: flex;
@@ -47,16 +50,16 @@ main{
 }
 
 .box2 h1{
-    font-size: 3rem;
+    font-size: 2rem;
     width: 100%;
     font-style: italic;
-    color: green;
-    text-shadow: 1px 1px 20px green;
+    color: black;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
 }
 
 .box2 h2{
     width: 100%;
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: italic;
     color: red;
     text-shadow: 1px 1px 20px red;
