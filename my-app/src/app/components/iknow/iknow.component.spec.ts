@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IKnowComponent } from './i-know.component';
+import { IknowComponent } from './iknow.component';
 
-describe('IKnowComponent', () => {
-  let component: IKnowComponent;
-  let fixture: ComponentFixture<IKnowComponent>;
+describe('IknowComponent', () => {
+  let component: IknowComponent;
+  let fixture: ComponentFixture<IknowComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IKnowComponent ]
+      declarations: [ IknowComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IKnowComponent);
+    fixture = TestBed.createComponent(IknowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

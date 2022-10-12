@@ -9,20 +9,17 @@ main{
 
 .box{
     box-sizing: border-box;
-    box-shadow:black 0px 5px 15px;
+    box-shadow:#66FF66 0px 5px 15px;
     padding: .4rem;
     transition: 10s ease-in-out;
-    background-color:#FFCC33;
+    background-color:black;
     transform: rotateZ(-1deg);
 }
 
 .box:hover{
     padding: .5rem;
-    box-shadow:black 0px 5px 15px inset;
-    /* background-color:#FF355E; */
-    background:#FF355E;
+    box-shadow:#FF355E 0px 5px 15px inset;
     transform: rotateZ(179deg);
-
 }
 
 
@@ -53,8 +50,8 @@ main{
     font-size: 2rem;
     width: 100%;
     font-style: italic;
-    color: black;
-    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+    color: #50BFE6;
+    text-shadow: 1px 1px 20px #50BFE6;
 }
 
 .box2 h2{
