@@ -15,7 +15,7 @@ nav a{
     color: white;
     font-size: 1.2rem;
     box-sizing: border-box;
-    border: 4px solid transparent;
+    border: 0.1rem solid transparent;
     padding: 1rem;
     text-decoration: none;
     font-weight: 600;
@@ -32,18 +32,18 @@ nav a:hover{
 
 @keyframes navhover {
     0%{
-        border-bottom: 4px solid #FF355E;
+        border-bottom: 0.1rem solid #FF355E;
     }
     25%{
-        border-right: 4px solid #FF355E;
+        border-right: 0.1rem solid #FF355E;
     }
     50%{
-        border-top: 4px solid #FF355E;
+        border-top: 0.1rem solid #FF355E;
     }
     75%{
-        border-left: 4px solid #FF355E;
+        border-left: 0.1rem solid #FF355E;
     }
     100%{
-        border: 4px solid transparent;
+        border: 0.1rem solid transparent;
     }
 }

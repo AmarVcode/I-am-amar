@@ -1,13 +1,20 @@
+*{
+    cursor: pointer;
+}
+
 footer{
     background-color: #2D383A;
     padding: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: grid;
     grid-template-columns: auto auto;
+    padding: 5rem;
+    gap: 5rem;
 }
 
 footer h3{
     color: white;
+    font-size: 1rem;
 }
 
 footer a{
@@ -18,9 +25,45 @@ footer a{
     padding: 1rem;
     font-size: 1rem;
     text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    transition: 200ms;
 }
 
 footer a:hover{
     color: #CCFF00;
+    border: 1px solid #CCFF00;
+}
+
+
+footer h4{
+    color: white;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    transition: 200ms;
+}
+
+footer h4:hover{
+    color: #66FF66;
+    border: 1px solid #66FF66;
+}
+
+#block{
+    text-align: center;
+     background-color: #2D383A;
+     color: white;
+     padding: 1rem;
+     box-sizing: border-box;
+}
+
+#block>h2{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
 }
 
