@@ -7,6 +7,7 @@ main {
     width: 100%;
     padding: 2rem;
     user-select: none;
+    min-height: 65vh;
 }
 
 main h1{
@@ -25,8 +26,7 @@ main>div {
     box-sizing: border-box;
     border-radius: 1rem;
     text-align: center;
-    background-color: white;
-    
+    background-color: black;
     transition: 1s;
     cursor: pointer;
 }
@@ -53,37 +53,46 @@ main>div:hover{
 }
 
 main>div:nth-child(1) {
-    background-color: #ff9933;
-    color: white;
+    border: 1px solid #ff9933;
+    color: #ff9933;
     box-shadow: #ff9933 0px 5px 15px;
+    text-shadow: 1px 1px 10px #ff9933;
 }
 
 
 
 main>div:nth-child(2) {
-    background-color: #50BFE6;
     box-shadow: #50BFE6 0px 5px 15px;
+    border: 1px solid #50BFE6;
+    color: #50BFE6;
+    text-shadow: 1px 1px 10px #50BFE6;
 }
 
 main>div:nth-child(3) {
-    background-color: #FFFF66;
     box-shadow: #FFFF66 0px 5px 15px;
+    border: 1px solid #FFFF66;
+    color: #FFFF66;
+    text-shadow: 1px 1px 10px #FFFF66;
 }
 
 main>div:nth-child(4) {
-    background-color: rgba(25, 25, 112, 0.659);
-    color: white;
-    box-shadow: rgba(25, 25, 112, 0.659) 0px 5px 15px;
+    box-shadow: #5DADEC 0px 5px 15px;
+    border: 1px solid #5DADEC;
+    color: #5DADEC;
+    text-shadow: 1px 1px 10px #5DADEC;
 }
 
 main>div:nth-child(5) {
-    background-color: #2242b6cf;
-    color: white;
-    box-shadow: #2242b6cf 0px 5px 15px;
+    
+    box-shadow: #FF9966 0px 5px 15px;
+    border: 1px solid #FF9966;
+    color: #FF9966;
+    text-shadow: 1px 1px 10px #FF9966;
 }
 
 main>div:nth-child(6) {
-    background-color: #FF355E;
-    color: white;
     box-shadow: #FF355E 0px 5px 15px;
+    border: 1px solid #FF355E;
+    color: #FF355E;
+    text-shadow: 1px 1px 10px #FF355E;
 }

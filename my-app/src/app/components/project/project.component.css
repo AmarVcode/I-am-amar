@@ -1,0 +1,34 @@
+main{
+    
+    min-height: 100vh;
+    
+
+}
+
+div{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+a{
+    max-width: 500px;
+    display: inline-block;
+    font-size: 2rem;
+    margin: .5rem auto;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-shadow: 1px 1px 10px white;
+    box-shadow: 1px 1px 10px white;
+    transition: 800ms;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+    text-shadow: 1px 1px 10px black;
+}

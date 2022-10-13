@@ -5,6 +5,7 @@ main{
     margin: 1rem;
     gap: 1rem;
     user-select: none;
+    
 }
 
 .box{
@@ -18,7 +19,7 @@ main{
 
 .box:hover{
     padding: .6rem;
-    box-shadow:inset#FF355E 0px 5px 15px;
+    box-shadow:#FF00CC 0px 5px 15px;
     transform: rotateZ(179deg);
 }
 
@@ -28,12 +29,12 @@ main{
 
 .box img{
     width: 100%;
-    transition: 1s ease-in-out;
+    transition: 10s;
     box-shadow:#66FF66 0px 5px 15px;
 }
 
 .box img:hover{
-    box-shadow:#FF355E 0px 5px 15px inset;
+    box-shadow:#FF00CC 0px 5px 15px;
 }
 
 

@@ -8,6 +8,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { IknowComponent } from './components/iknow/iknow.component';
 import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProjectComponent } from './components/project/project.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { AboutComponent } from './components/about/about.component';
     HomeComponent,
     IknowComponent,
     AboutComponent,
+    ContactComponent,
+    ProjectComponent,
     
   ],
   imports: [

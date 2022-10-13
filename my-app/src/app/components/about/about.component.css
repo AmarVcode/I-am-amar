@@ -57,7 +57,6 @@ main{
     margin: auto;
     max-width: 100%;
     box-sizing: border-box;
-    border: 1px solid white;
     height: 100vh;
     overflow: hidden;
     user-select: none;
@@ -75,9 +74,16 @@ p{
     margin: auto;
     text-align: center;
     text-shadow: 1px 1px 10px #EE34D2;
+    align-self: center;
 }
 
 p>b{
     color: #FF355E;
     text-shadow: 1px 1px 10px #FF355E;
+    font-size: 2rem;
+}
+
+#block{
+    display: flex;
+    min-height: 80vh;
 }

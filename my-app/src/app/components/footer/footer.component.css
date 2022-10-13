@@ -62,10 +62,14 @@ footer h4:hover{
      color: white;
      padding: 1rem;
      box-sizing: border-box;
+     position: relative;
+     bottom: 0;
 }
 
 #block>h2{
     color: rgb(255, 255, 255);
     font-size: 1rem;
 }
+
+
 
