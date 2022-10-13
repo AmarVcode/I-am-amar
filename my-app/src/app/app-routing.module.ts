@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { IknowComponent } from './components/iknow/iknow.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
-  {path: 'iknow', component:IknowComponent}
+  {path: 'iknow', component:IknowComponent},
+  {path: 'about', component:AboutComponent}
 
 ];
 

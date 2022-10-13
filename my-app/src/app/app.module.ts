@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { IknowComponent } from './components/iknow/iknow.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { IknowComponent } from './components/iknow/iknow.component';
     FooterComponent,
     HomeComponent,
     IknowComponent,
+    AboutComponent,
     
   ],
   imports: [

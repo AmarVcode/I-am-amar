@@ -1,0 +1,83 @@
+img{
+    width: 100%;
+    align-self: center;
+    opacity: 50%;
+    position: relative;
+    z-index: -1000;
+    transform: scale(1.5);
+}
+
+#img1{
+    animation: anime 8s infinite;
+}
+
+#img2{
+    animation: anime 5s infinite;
+}
+
+#img3{
+    animation: anime 20s infinite;
+}
+#img4{
+    animation: anime 15s infinite;
+}
+#img5{
+    animation: anime 30s infinite;
+}
+
+@keyframes anime {
+    0%{
+       top: 0%;
+       opacity: 0%;
+    }
+    100%{
+        top: 100%;
+        opacity: 100%;
+    }
+}
+
+
+
+
+
+
+
+section{
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    position: fixed;
+    height: 120%;
+    z-index: -1000;
+}
+
+main{
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+}
+
+main>div{
+
+    margin: 1rem;
+}
+p{
+    color:#FF00CC;
+    font-size: 2rem;
+    max-width: 500px;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 10px #EE34D2;
+}
+
+p>b{
+    color: #FF355E;
+    text-shadow: 1px 1px 10px #FF355E;
+}
