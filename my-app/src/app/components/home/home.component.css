@@ -12,15 +12,25 @@ main{
     box-sizing: border-box;
     box-shadow:#66FF66 0px 5px 15px;
     padding: .4rem;
-    transition: 10s ease-in-out;
     background-color:black;
     transform: rotateZ(-1deg);
+    animation: rotate 10s ease-in-out;
 }
 
-.box:hover{
-    padding: .6rem;
-    box-shadow:#FF00CC 0px 5px 15px;
-    transform: rotateZ(179deg);
+
+@keyframes rotate {
+    0%{
+        padding: .6rem;
+        box-shadow:#FF00CC 0px 5px 15px;
+        transform: rotateZ(179deg);
+    }
+
+    100%{
+        box-shadow:#66FF66 0px 5px 15px;
+        padding: .4rem;
+        background-color:black;
+        transform: rotateZ(-1deg);
+    }
 }
 
 
