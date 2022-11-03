@@ -30,12 +30,10 @@ nav a:hover{
 }
 
 .active{
-    background-position: right;
+    background: #FF355E;
 }
 
-.active{
-    color: #7835ff;
-}
+
 
 
 
