@@ -1,18 +1,18 @@
 main{
     
     min-height: 100vh;
-    
-
+    color: white;
+ text-align: center;
 }
 
-div{
+.project{
     width: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: auto;
 }
 
-a{
+.project a{
     max-width: 500px;
     display: inline-block;
     font-size: 2rem;
@@ -27,8 +27,54 @@ a{
     transition: 800ms;
 }
 
-a:hover{
+.project a:hover{
     color: black;
     background-color: white;
     text-shadow: 1px 1px 10px black;
+}
+
+#best{
+    color: white;
+}
+
+#best>div{
+    border: 1px solid white;
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px white;
+    min-height: 50vh;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+#best>div>p{
+    font-size: 1.2rem;
+    max-width: 40ch;
+    margin: auto;
+}
+
+.btn{
+    box-sizing: border-box;
+}
+
+.btn a{
+    border: 1px solid white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 500ms;
+}
+
+.btn a:hover{
+    background-color: white;
+    color: black;
 }
