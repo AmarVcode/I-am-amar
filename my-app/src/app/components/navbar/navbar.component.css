@@ -8,6 +8,7 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
+  top: 0;
 }
 
 .nav-toggle {
@@ -97,9 +98,7 @@ nav a:hover {
   background-position: right;
 }
 
-.active{
-  background-position: right;
-}
+
 
 .nav-toggle:checked ~ nav {
   transform: scale(1,1);
@@ -177,3 +176,6 @@ nav a:hover {
 
 
 
+.active{
+  background-position: right;
+}
