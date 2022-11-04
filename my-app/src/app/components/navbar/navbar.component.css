@@ -90,7 +90,7 @@ nav a {
   font-size: 1.2rem;
   text-transform: capitalize;
   opacity: 0;
-  transition: 500ms ease-in-out !important;
+  transition: 500ms ease-out !important;
   font-weight: 500;
 }
 
@@ -177,5 +177,6 @@ nav a:hover {
 
 
 .active{
-  background-position: right;
+  
+  background-position: right !important;
 }

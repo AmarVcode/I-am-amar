@@ -12,6 +12,7 @@ footer{
     gap: 5rem;
     box-shadow: #CCFF00 0px 50px 100px -20px, transparent 0px 30px 60px -30px, transparent 0px -2px 6px 0px inset;
     z-index: 1000;
+    margin-top: 100px;
 }
 
 footer h3{

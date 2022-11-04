@@ -8,6 +8,7 @@ import { ProjectComponent } from './components/project/project.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
+  {path: 'home', component:HomeComponent},
   {path: 'iknow', component:IknowComponent},
   {path: 'about', component:AboutComponent},
   {path:'contact', component:ContactComponent},
