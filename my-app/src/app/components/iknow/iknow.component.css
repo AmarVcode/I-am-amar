@@ -8,6 +8,8 @@ main {
     padding: 2rem;
     user-select: none;
     min-height: 65vh;
+    position: relative;
+    top: 20px;
 }
 
 main h1{
