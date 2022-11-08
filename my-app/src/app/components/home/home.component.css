@@ -2,7 +2,7 @@
 
 #content{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,6 +71,14 @@ main{
     100%{
         transform: rotateZ(360deg) scale(1.1);
         opacity: 50%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    #circle{
+        width: 100vw;
+        height: 100vw;
     }
 }
 

@@ -1,8 +1,8 @@
 main{
  color: white;
  text-align: center;
- position: relative;
- top: 100px;
+ min-height: 100vh;
+ margin-top: 100px;
 }
 
 .project{
@@ -39,7 +39,7 @@ main{
 
 #best>div{
     border: 1px solid white;
-    width: 50%;
+    max-width: 500px;
     margin: 5rem auto;
     text-align: center;
     border-radius: 10px;
@@ -72,6 +72,9 @@ main{
     font-size: 1rem;
     font-weight: 600;
     transition: 500ms;
+    text-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 10px white;
+    font-size: 1.2rem;
 }
 
 .btn a:hover{

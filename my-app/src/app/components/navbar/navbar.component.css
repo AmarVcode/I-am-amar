@@ -3,7 +3,7 @@
 
 
 header {
-  background: black;
+  background: transparent;
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -18,7 +18,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
+  outline: 10px solid rgba(lightblue, 1);
 }
 
 .nav-toggle-label {
@@ -35,11 +35,12 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
-  height: 2px;
+  background:white;
+  height: 3px;
   width: 2em;
   border-radius: 2px;
   position: relative;
+  cursor: pointer;
 }
 
 .nav-toggle-label span::before,
