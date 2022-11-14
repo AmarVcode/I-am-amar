@@ -5,5 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class IknowinfoService {
 
-  constructor() { }
+  constructor() {
+    {name:"amar";
+    surname:"Vishwakarma";
+    Middlename:"Yamuna";
+  }
+   }
 }

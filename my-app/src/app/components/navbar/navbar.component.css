@@ -83,7 +83,7 @@ nav a {
   color: white;
   text-decoration: none;
   background: linear-gradient(270deg,#FF355E,transparent,transparent);
-  padding: 0.6em 3em;
+  padding: 0.6em 2em;
   background-size: 200%;
   background-position: left;
   display: flex;
@@ -136,7 +136,6 @@ nav a:hover {
     top: initial;
     left: initial;
     /* end Edge support stuff */
-    
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;

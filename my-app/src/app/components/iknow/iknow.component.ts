@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IknowinfoService } from 'src/app/Services/iknowinfo/iknowinfo.service';
 
 @Component({
   selector: 'app-iknow',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IknowComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+   
+  }
+  
 
   ngOnInit(): void {
+    
   }
 
 }
+
+ console.log(IknowinfoService.name)
+
