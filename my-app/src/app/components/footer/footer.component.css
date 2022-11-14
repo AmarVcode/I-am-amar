@@ -17,6 +17,8 @@ footer{
 footer h3{
     color: white;
     font-size: 1rem;
+    position: sticky;
+    bottom: 0;
 }
 
 footer a{

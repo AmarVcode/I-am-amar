@@ -2,7 +2,7 @@
 
 main {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     box-sizing: border-box;
     width: 100%;
     padding: 2rem;
@@ -29,16 +29,11 @@ main>div {
     border-radius: 1rem;
     text-align: center;
     background-color: black;
-    transition: 1s;
+    transition: 500ms;
     cursor: pointer;
 }
 
-@media screen and (max-width:1000px) {
-    main{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-}
+
 
 @media screen and (max-width:500px) {
     main{
@@ -50,15 +45,20 @@ main>div {
 
 
 
-main>div:hover{
-    transform: scale(1.1);
-}
+
 
 main>div:nth-child(1) {
     border: 1px solid #ff9933;
     color: #ff9933;
     box-shadow: #ff9933 0px 5px 15px;
     text-shadow: 1px 1px 10px #ff9933;
+}
+
+main>div:nth-child(1):hover{
+    background-color: #ff9933;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    border-color: #ff9933;
 }
 
 
@@ -70,11 +70,25 @@ main>div:nth-child(2) {
     text-shadow: 1px 1px 10px #50BFE6;
 }
 
+main>div:nth-child(2):hover {
+    background-color: #50BFE6;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    
+}
+
 main>div:nth-child(3) {
     box-shadow: #FFFF66 0px 5px 15px;
     border: 1px solid #FFFF66;
     color: #FFFF66;
     text-shadow: 1px 1px 10px #FFFF66;
+}
+
+main>div:nth-child(3):hover {
+    background-color: #FFFF66;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    
 }
 
 main>div:nth-child(4) {
@@ -84,12 +98,25 @@ main>div:nth-child(4) {
     text-shadow: 1px 1px 10px #5DADEC;
 }
 
-main>div:nth-child(5) {
+main>div:nth-child(4):hover {
+    background-color: #5DADEC;
+    color: black;
+    text-shadow: 0px 0px 5px black;
     
+}
+
+main>div:nth-child(5) {
     box-shadow: #FF9966 0px 5px 15px;
     border: 1px solid #FF9966;
     color: #FF9966;
     text-shadow: 1px 1px 10px #FF9966;
+}
+
+main>div:nth-child(5):hover {
+    background-color: #FF9966;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    
 }
 
 main>div:nth-child(6) {
@@ -99,10 +126,24 @@ main>div:nth-child(6) {
     text-shadow: 1px 1px 10px #FF355E;
 }
 
+main>div:nth-child(6):hover {
+    background-color: #FF355E;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    
+}
+
 
 main>div:nth-child(7) {
     box-shadow: cyan 0px 5px 15px;
     border: 1px solid cyan;
     color: cyan;
     text-shadow: 1px 1px 10px cyan;
+}
+
+main>div:nth-child(7):hover {
+    background-color: cyan;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    
 }

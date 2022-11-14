@@ -3,9 +3,9 @@
 
 
 header {
-  background: transparent;
+  background: black !important;
   text-align: center;
-  position: fixed;
+  position: sticky;
   z-index: 999;
   width: 100%;
   top: 0;
@@ -17,9 +17,7 @@ header {
   left: -9999px !important;
 }
 
-.nav-toggle:focus ~ .nav-toggle-label {
-  outline: 10px solid rgba(lightblue, 1);
-}
+
 
 .nav-toggle-label {
   position: absolute;
@@ -35,27 +33,12 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background:white;
-  height: 3px;
   width: 2em;
-  border-radius: 2px;
-  position: relative;
+  margin-top: 40px;
   cursor: pointer;
+  color: white !important;
 }
 
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: '';
-  position: absolute;
-}
-
-.nav-toggle-label span::before {
-  bottom: 7px;
-}
-
-.nav-toggle-label span::after {
-  top: 7px;
-}
 
 nav {
   position: absolute;
@@ -66,6 +49,8 @@ nav {
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
+  background: black;
+  margin-top: 40px;
 }
 
 nav ul {
