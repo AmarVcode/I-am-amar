@@ -1,16 +1,17 @@
-h1 {
+.right-head {
     text-align: right;
     text-shadow: 0px 0px 10px white;
     background-color: rgba(0, 0, 0, 0.486);
 }
 
-p {
+.right-p {
     text-align: right;
     max-width: 300px;
     float: right;
-    line-height: 40px;
+    line-height: 3rem;
     text-shadow: 0px 0px 10px white;
     background-color: rgba(0, 0, 0, 0.418);
+
 }
 
 .circle {
@@ -29,24 +30,485 @@ p {
     max-width: 400px;
     border-radius: 50%;
     padding: 10px;
+
     div {
         width: 100%;
-        border: 2px solid transparent;
-        padding: 1px;
-        animation: rotate 30s infinite alternate-reverse;
-        border-left: 2px solid grey;
-        border-right: 2px solid white;
+        border: 5px solid transparent;
+        padding: 3px;
+        animation: rotate 10s infinite alternate;
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+        box-shadow: 0px 0px 20px white;
     }
 }
+
+.front {
+    color: lime;
+    text-shadow: 0px 0px 10px lime;
+}
+
+.btn-wrapper {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-wrapper>a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    padding: 1em 3em;
+    margin: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 1s;
+
+    &:nth-child(1) {
+        color: orange;
+        border-color: orange;
+        box-shadow: 0px 0px 10px orange, 0px 0px 10px orange inset;
+        text-shadow: 0px 0px 10px orange;
+        background: linear-gradient(to right, transparent, transparent, orange, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+
+    &:nth-child(2) {
+        color: #2965f1;
+        border-color: #2965f1;
+        box-shadow: 0px 0px 10px #2965f1, 0px 0px 10px #2965f1 inset;
+        text-shadow: 0px 0px 10px #2965f1;
+        background: linear-gradient(to right, transparent, transparent, #2965f1, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+
+    &:nth-child(3) {
+        color: yellow;
+        border-color: yellow;
+        box-shadow: 0px 0px 10px yellow, 0px 0px 10px yellow inset;
+        text-shadow: 0px 0px 10px yellow;
+        background: linear-gradient(to right, transparent, transparent, yellow, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+        
+    }
+    &:nth-child(4) {
+        color: cyan;
+        border-color: cyan;
+        box-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan inset;
+        text-shadow: 0px 0px 10px cyan;
+        background: linear-gradient(to right, transparent, transparent, cyan, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+}
+
+.normalhead{
+    text-shadow: 0px 0px 10px white;
+}
+
+.content-wrapper {
+    display: grid;
+    animation: slider-front 18s infinite alternate;
+}
+
+.content-wrapper>div {
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    h3{
+        margin: 1em;
+    }
+    p {
+        width: 90vw;
+        margin: 2em;
+        line-height: 2rem;
+    }
+    &:nth-child(1){
+        color: orange;
+        text-shadow: 0px 0px 10px orange;
+        box-shadow: 0px 0px 10px orange,0px 0px 10px orange inset;
+        border-color: orange;
+    }
+    &:nth-child(2){
+        color: #2965f1;
+        text-shadow: 0px 0px 10px #2965f1;
+        box-shadow: 0px 0px 10px #2965f1,0px 0px 10px #2965f1 inset;
+        border-color: #2965f1;
+    }
+    &:nth-child(3){
+        color: yellow;
+        text-shadow: 0px 0px 10px yellow;
+        box-shadow: 0px 0px 10px yellow,0px 0px 10px yellow inset;
+        border-color: yellow;
+    }
+    &:nth-child(4){
+        color: cyan;
+        text-shadow: 0px 0px 10px cyan;
+        box-shadow: 0px 0px 10px cyan,0px 0px 10px cyan inset;
+        border-color: cyan;
+    }
+}
+
+.btn-wrapper-script {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-wrapper-script>a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    padding: 1em 3em;
+    margin: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 1s;
+
+    &:nth-child(1) {
+        color: #4F5B93;
+        border-color: #4F5B93;
+        box-shadow: 0px 0px 10px #4F5B93, 0px 0px 10px #4F5B93 inset;
+        text-shadow: 0px 0px 10px #4F5B93;
+        background: linear-gradient(to right, transparent, transparent, #4F5B93, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+
+    &:nth-child(2) {
+        color: #3E6E93;
+        border-color: #3E6E93;
+        box-shadow: 0px 0px 10px #3E6E93, 0px 0px 10px #3E6E93 inset;
+        text-shadow: 0px 0px 10px #3E6E93;
+        background: linear-gradient(to right, transparent, transparent, #3E6E93, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+    
+    
+}
+
+
+
+
+.content-wrapper-script {
+    display: grid;
+    animation: slider-backend 6s infinite alternate-reverse;
+}
+
+.content-wrapper-script>div {
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    h3{
+        margin: 1em;
+    }
+    p {
+        width: 90vw;
+        margin: 2em;
+        line-height: 2rem;
+    }
+    &:nth-child(1){
+        color: #4F5B93;
+        text-shadow: 0px 0px 10px #4F5B93;
+        box-shadow: 0px 0px 10px #4F5B93,0px 0px 10px #4F5B93 inset;
+        border-color: #4F5B93;
+    }
+    &:nth-child(2){
+        color: #2965f1;
+        text-shadow: 0px 0px 10px #2965f1;
+        box-shadow: 0px 0px 10px #2965f1,0px 0px 10px #2965f1 inset;
+        border-color: #2965f1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.btn-wrapper-prog {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-wrapper-prog>a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    padding: 1em 3em;
+    margin: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 1s;
+
+    &:nth-child(1) {
+        color: orange;
+        border-color: orange;
+        box-shadow: 0px 0px 10px orange, 0px 0px 10px orange inset;
+        text-shadow: 0px 0px 10px orange;
+        background: linear-gradient(to right, transparent, transparent, orange, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+
+    
+}
+
+
+
+
+.content-wrapper-prog {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.content-wrapper-prog>div {
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    h3{
+        margin: 1em;
+    }
+    p {
+        width: 90vw;
+        margin: 2em;
+        line-height: 2rem;
+    }
+    &:nth-child(1){
+        color: orange;
+        text-shadow: 0px 0px 10px orange;
+        box-shadow: 0px 0px 10px orange,0px 0px 10px orange inset;
+        border-color: orange;
+    }
+   
+}
+
+
+
+
+
+
+
+.btn-wrapper-frame {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-wrapper-frame>a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    padding: 1em 3em;
+    margin: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 1s;
+
+    &:nth-child(1) {
+        color: red;
+        border-color: red;
+        box-shadow: 0px 0px 10px red, 0px 0px 10px red inset;
+        text-shadow: 0px 0px 10px red;
+        background: linear-gradient(to right, transparent, transparent, red, transparent, transparent);
+        background-size: 500%;
+        background-position: left;
+
+        &:hover {
+            background-position: right;
+            color: white;
+            border-color: white;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    }
+
+    
+}
+
+
+
+
+.content-wrapper-frame {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.content-wrapper-frame>div {
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    h3{
+        margin: 1em;
+    }
+    p {
+        width: 90vw;
+        margin: 2em;
+        line-height: 2rem;
+    }
+    &:nth-child(1){
+        color: red;
+        text-shadow: 0px 0px 10px red;
+        box-shadow: 0px 0px 10px red,0px 0px 10px red inset;
+        border-color: red;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slider-front {
+    0% {
+        grid-template-columns: 100% 0 0 0;
+    }
+
+    50% {
+        grid-template-columns: 0 100% 0 0;
+
+    }
+75%{
+    grid-template-columns: 0 0 100% 0;
+}
+    100% {
+        grid-template-columns: 0 0 0 100%;
+    }
+}
+
+@keyframes slider-backend {
+    0% {
+        grid-template-columns: 100% 0;
+    }
+
+
+
+    100% {
+        grid-template-columns: 0 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes rotate {
-    0%{
+    0% {
         transform: rotateZ(0deg);
-        border-radius: 0%;
     }
-    100%{
-        transform: rotateZ(720deg);
-        border-radius: 50%;
+
+    100% {
+        transform: rotateZ(90deg);
     }
 }
 
+@media (max-width:500px) {
+    .circle {
+        display: none;
+    }
+
+}

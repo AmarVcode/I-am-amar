@@ -16,4 +16,11 @@ main{
     max-width: 1000px;
     min-height: 100vh;
     margin: auto;
+    padding: 1rem;
+}
+
+@media (max-width:600px) {
+    html{
+        font-size: 10px;
+    }
 }
