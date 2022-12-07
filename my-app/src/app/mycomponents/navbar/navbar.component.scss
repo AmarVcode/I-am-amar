@@ -1,10 +1,63 @@
 header{
     width: 100%;
-    box-shadow: 0px 0px 10px lime;
-    background-color: lime;
     display: grid;
-    a{
-        font-size: 1rem;
-        padding: 3em 2em !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    svg{
+        color: white;
+        fill: white;
+        width: 1rem;
+        margin: 1em;
+        display: none;
     }
+    nav{
+        position: static;
+        display: flex;
+        text-align: center;
+        a{
+            font-size: 1rem;
+            display: block;
+            padding: 1em 3em;
+            text-decoration: none;
+            color: #CCFF00;
+            border: 1px solid transparent;
+            background: linear-gradient(to right,transparent,transparent,#CCFF00,transparent,transparent);
+            background-size: 500%;
+            background-position: left;
+            transition: 1s;
+            box-shadow: 0px 0px 0px #CCFF00;
+            text-shadow: 0px 0px 0px #CCFF00;
+            
+            &:hover{
+            border: 1px solid white;
+            background-position: right;
+            box-shadow: 0px 0px 20px white,0px 0px 20px white inset;
+            color: white;
+            text-shadow: 0px 0px 20px white;
+
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    svg{
+        display: block !important;
+    }
+        nav{
+            position: absolute !important;
+            display: flex;
+            flex-direction: column;
+            transform: scale(1,0);
+            transition: 1s;
+            width: 100%;
+            background-color: black;
+           transform-origin: top;
+        }
+        .afternav{
+            transform: scale(1,1);
+        }
+    
 }

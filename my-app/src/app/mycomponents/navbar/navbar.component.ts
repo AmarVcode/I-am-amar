@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+public drop=false;
+
+mymenu(){
+  if(this.drop==false){
+    this.drop=true;
+    document.getElementById("navbar")?.classList.add("afternav")
+  }
+  else{
+    this.drop=false;
+    document.getElementById("navbar")?.classList.remove("afternav")
+
+  }
+}
+
+
 }
