@@ -117,8 +117,9 @@
             box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
             text-shadow: 0px 0px 10px white;
         }
-        
+
     }
+
     &:nth-child(4) {
         color: cyan;
         border-color: cyan;
@@ -139,7 +140,7 @@
     }
 }
 
-.normalhead{
+.normalhead {
     text-shadow: 0px 0px 10px white;
 }
 
@@ -148,7 +149,7 @@
     animation: slider-front 18s infinite alternate;
 }
 
-.content-wrapper:active{
+.content-wrapper:active {
     animation-play-state: paused;
 }
 
@@ -157,36 +158,42 @@
     border: 1px solid white;
     border-radius: 10px;
     background-color: black;
-    h3{
+
+    h3 {
         margin: 1em;
     }
+
     p {
         width: 90vw;
         margin: 2em;
         line-height: 2rem;
     }
-    &:nth-child(1){
+
+    &:nth-child(1) {
         color: orange;
         text-shadow: 0px 0px 10px orange;
-        box-shadow: 0px 0px 10px orange,0px 0px 10px orange inset;
+        box-shadow: 0px 0px 10px orange, 0px 0px 10px orange inset;
         border-color: orange;
     }
-    &:nth-child(2){
+
+    &:nth-child(2) {
         color: #2965f1;
         text-shadow: 0px 0px 10px #2965f1;
-        box-shadow: 0px 0px 10px #2965f1,0px 0px 10px #2965f1 inset;
+        box-shadow: 0px 0px 10px #2965f1, 0px 0px 10px #2965f1 inset;
         border-color: #2965f1;
     }
-    &:nth-child(3){
+
+    &:nth-child(3) {
         color: yellow;
         text-shadow: 0px 0px 10px yellow;
-        box-shadow: 0px 0px 10px yellow,0px 0px 10px yellow inset;
+        box-shadow: 0px 0px 10px yellow, 0px 0px 10px yellow inset;
         border-color: yellow;
     }
-    &:nth-child(4){
+
+    &:nth-child(4) {
         color: cyan;
         text-shadow: 0px 0px 10px cyan;
-        box-shadow: 0px 0px 10px cyan,0px 0px 10px cyan inset;
+        box-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan inset;
         border-color: cyan;
     }
 }
@@ -245,8 +252,8 @@
         }
 
     }
-    
-    
+
+
 }
 
 
@@ -258,7 +265,7 @@
 }
 
 
-.content-wrapper-script:active{
+.content-wrapper-script:active {
     animation-play-state: paused;
 }
 
@@ -267,24 +274,28 @@
     border: 1px solid white;
     border-radius: 10px;
     background-color: black;
-    h3{
+
+    h3 {
         margin: 1em;
     }
+
     p {
         width: 90vw;
         margin: 2em;
         line-height: 2rem;
     }
-    &:nth-child(1){
+
+    &:nth-child(1) {
         color: #4F5B93;
         text-shadow: 0px 0px 10px #4F5B93;
-        box-shadow: 0px 0px 10px #4F5B93,0px 0px 10px #4F5B93 inset;
+        box-shadow: 0px 0px 10px #4F5B93, 0px 0px 10px #4F5B93 inset;
         border-color: #4F5B93;
     }
-    &:nth-child(2){
+
+    &:nth-child(2) {
         color: #2965f1;
         text-shadow: 0px 0px 10px #2965f1;
-        box-shadow: 0px 0px 10px #2965f1,0px 0px 10px #2965f1 inset;
+        box-shadow: 0px 0px 10px #2965f1, 0px 0px 10px #2965f1 inset;
         border-color: #2965f1;
     }
 }
@@ -334,7 +345,7 @@
 
     }
 
-    
+
 }
 
 
@@ -350,21 +361,24 @@
     border: 1px solid white;
     border-radius: 10px;
     background-color: black;
-    h3{
+
+    h3 {
         margin: 1em;
     }
+
     p {
         width: 90vw;
         margin: 2em;
         line-height: 2rem;
     }
-    &:nth-child(1){
+
+    &:nth-child(1) {
         color: orange;
         text-shadow: 0px 0px 10px orange;
-        box-shadow: 0px 0px 10px orange,0px 0px 10px orange inset;
+        box-shadow: 0px 0px 10px orange, 0px 0px 10px orange inset;
         border-color: orange;
     }
-   
+
 }
 
 
@@ -408,6 +422,7 @@
         }
 
     }
+
     &:nth-child(2) {
         color: greenyellow;
         border-color: greenyellow;
@@ -426,7 +441,7 @@
         }
 
     }
-    
+
 }
 
 
@@ -438,33 +453,38 @@
 }
 
 
-.content-wrapper-frame:active{
+.content-wrapper-frame:active {
     animation-play-state: paused;
 }
+
 .content-wrapper-frame>div {
     overflow: hidden;
     border: 1px solid white;
     border-radius: 10px;
     background-color: black;
     height: 50ch;
-    h3{
+
+    h3 {
         margin: 1em;
     }
+
     p {
         width: 90vw;
         margin: 2em;
         line-height: 2rem;
     }
-    &:nth-child(1){
+
+    &:nth-child(1) {
         color: red;
         text-shadow: 0px 0px 10px red;
-        box-shadow: 0px 0px 10px red,0px 0px 10px red inset;
+        box-shadow: 0px 0px 10px red, 0px 0px 10px red inset;
         border-color: red;
     }
-    &:nth-child(2){
+
+    &:nth-child(2) {
         color: greenyellow;
         text-shadow: 0px 0px 10px greenyellow;
-        box-shadow: 0px 0px 10px greenyellow,0px 0px 10px greenyellow inset;
+        box-shadow: 0px 0px 10px greenyellow, 0px 0px 10px greenyellow inset;
         border-color: greenyellow;
     }
 }
@@ -511,7 +531,7 @@
 
     }
 
-    
+
 }
 
 
@@ -527,21 +547,24 @@
     border: 1px solid white;
     border-radius: 10px;
     background-color: black;
-    h3{
+
+    h3 {
         margin: 1em;
     }
+
     p {
         width: 90vw;
         margin: 2em;
         line-height: 2rem;
     }
-    &:nth-child(1){
+
+    &:nth-child(1) {
         color: cyan;
         text-shadow: 0px 0px 10px cyan;
-        box-shadow: 0px 0px 10px cyan,0px 0px 10px cyan inset;
+        box-shadow: 0px 0px 10px cyan, 0px 0px 10px cyan inset;
         border-color: cyan;
     }
-   
+
 }
 
 
@@ -636,8 +659,9 @@
             box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
             text-shadow: 0px 0px 10px white;
         }
-        
+
     }
+
     &:nth-child(3) {
         color: cyan;
         border-color: cyan;
@@ -669,13 +693,25 @@
         grid-template-columns: 100% 0 0 0;
     }
 
-    50% {
-        grid-template-columns: 0 100% 0 0;
-
+    15% {
+        grid-template-columns: 100% 0 0 0;
     }
-75%{
-    grid-template-columns: 0 0 100% 0;
-}
+
+    30% {
+        grid-template-columns: 0 100% 0 0;
+    }
+    45% {
+        grid-template-columns: 0 100% 0 0;
+    }
+    60% {
+        grid-template-columns: 0 0 100% 0;
+    }
+    75% {
+        grid-template-columns: 0 0 100% 0;
+    }
+    90% {
+        grid-template-columns: 0 0 0 100%;
+    }
     100% {
         grid-template-columns: 0 0 0 100%;
     }
@@ -685,9 +721,13 @@
     0% {
         grid-template-columns: 100% 0;
     }
+    30% {
+        grid-template-columns: 100% 0;
+    }
 
-
-
+    65% {
+        grid-template-columns: 0 100%;
+    }
     100% {
         grid-template-columns: 0 100%;
     }
@@ -713,7 +753,7 @@
     0% {
         transform: rotateZ(0deg);
         box-shadow: 0px 0px 5px white;
-        
+
     }
 
     100% {
