@@ -5,11 +5,18 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 body{
     background-color: black;
     color: white;
     margin: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 main{
@@ -19,8 +26,16 @@ main{
     padding: 1rem;
 }
 
+.active{
+    border: 1px solid yellow !important;
+    background-position: right !important;
+    box-shadow: 0px 0px 20px yellow,0px 0px 20px yellow inset !important;
+    color: yellow !important;
+    text-shadow: 0px 0px 20px yellow !important;
+    }
+
 @media (max-width:600px) {
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
