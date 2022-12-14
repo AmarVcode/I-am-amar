@@ -1,0 +1,164 @@
+
+
+
+.bg2{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1000;
+    left: 0;
+    justify-content: space-around;
+}
+
+
+.bg2 div{
+    fill: yellow;
+    z-index: -1000;
+    width: 1rem;
+    color: white;
+    transform: scale(2);
+    position: relative;
+    opacity: 0%;
+    animation: drop 10s ease-in-out infinite;
+}
+
+.bg2 div:nth-child(1){
+    animation-delay: 1ms;
+}
+.bg2 div:nth-child(2){
+    animation-delay: 5s;
+}
+.bg2 div:nth-child(3){
+    animation-delay: 3s;
+}
+.bg2 div:nth-child(4){
+    animation-delay: 10s;
+}
+.bg2 div:nth-child(5){
+    animation-delay: 6s;
+}
+.bg2 div:nth-child(6){
+    animation-delay: 2s;
+}
+.bg2 div:nth-child(7){
+    animation-delay: 15s;
+}
+.bg2 div:nth-child(8){
+    animation-delay: 8s;
+}
+.bg2 div:nth-child(9){
+    animation-delay: 100ms;
+}
+.bg2 div:nth-child(10){
+    animation-delay: 6s;
+}
+.bg2 div:nth-child(11){
+    animation-delay: 2s;
+}
+.bg2 div:nth-child(12){
+    animation-delay: 11s;
+}
+.bg2 div:nth-child(13){
+    animation-delay: 7s;
+}
+.bg2 div:nth-child(14){
+    animation-delay: 300ms;
+}
+.bg2 div:nth-child(15){
+    animation-delay: 14s;
+}
+.bg2 div:nth-child(16){
+    animation-delay: 12s;
+}
+.bg2 div:nth-child(17){
+    animation-delay: 666ms;
+}
+.bg2 div:nth-child(18){
+    animation-delay: 20s;
+}
+.bg2 div:nth-child(19){
+    animation-delay: 30s;
+}
+.bg2 div:nth-child(20){
+    animation-delay: 1s;
+}
+.bg2 div:nth-child(21){
+    animation-delay: 16s;
+}
+.bg2 div:nth-child(22){
+    animation-delay: 5s;
+}
+.bg2 div:nth-child(23){
+    animation-delay: 9s;
+}
+.bg2 div:nth-child(24){
+    animation-delay: 4s;
+}
+.bg2 div:nth-child(25){
+    animation-delay: 2s;
+}
+.bg2 div:nth-child(26){
+    animation-delay: 5s;
+}
+.bg2 div:nth-child(27){
+    animation-delay: 1s;
+}
+.bg2 div:nth-child(28){
+    animation-delay: 5s;
+}
+.bg2 div:nth-child(29){
+    animation-delay: 8s;
+}
+.bg2 div:nth-child(30){
+    animation-delay: 2s;
+}
+.bg2 div:nth-child(31){
+    animation-delay: 7s;
+}
+.bg2 div:nth-child(32){
+    animation-delay: 9s;
+}
+.bg2 div:nth-child(33){
+    animation-delay: 1ms;
+}
+.bg2 div:nth-child(34){
+    animation-delay: 5s;
+}
+.bg2 div:nth-child(35){
+    animation-delay: 3s;
+}
+.bg2 div:nth-child(36){
+    animation-delay: 10s;
+}
+.bg2 div:nth-child(37){
+    animation-delay: 6s;
+}
+.bg2 div:nth-child(38){
+    animation-delay: 2s;
+}
+.bg2 div:nth-child(39){
+    animation-delay: 15s;
+}
+.bg2 div:nth-child(40){
+    animation-delay: 8s;
+}
+.bg2 div:nth-child(41){
+    animation-delay: 9s;
+}
+
+
+@keyframes drop {
+    0%{
+        top:0vh;
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+
+    100%{
+        top:100vh;
+        opacity: 100%;
+    }
+}

@@ -14,29 +14,6 @@
 
 }
 
-.circle {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    z-index: -1000;
-    left: 0;
-    top: 100px;
-    overflow: hidden;
-}
-
-.circle>div {
-    div {
-        width: 100%;
-        padding:1px;
-        box-shadow: 0px 0px 10px white;
-        animation: rotate 60s infinite alternate;
-    }
-
-}
-
 .front {
     color: lime;
     text-shadow: 0px 0px 10px lime;
@@ -741,33 +718,325 @@
 
 
 
+//bg animation 
 
-
-
-
-
-
-
-
-
-
-
-@keyframes rotate {
-    0% {
-        transform: rotateZ(0deg);
-        
-    }
-
-    100% {
-        transform: rotateZ(90deg);
-       
-
-    }
+.bg{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1000;
+    justify-content: space-around;
+    left: 0;
 }
 
-@media (max-width:500px) {
-    .circle {
-        display: none;
+
+.bg svg{
+    fill: white;
+    z-index: 1000;
+    width: 1rem;
+    color: white;
+    transform: scale(.3);
+    position: relative;
+    opacity: 0%;
+    animation: drop 20s ease-in-out infinite;
+    filter: blur(1px);
+}
+
+.bg svg:nth-child(1){
+    animation-delay: 1ms;
+}
+.bg svg:nth-child(2){
+    animation-delay: 5s;
+}
+.bg svg:nth-child(3){
+    animation-delay: 3s;
+}
+.bg svg:nth-child(4){
+    animation-delay: 10s;
+}
+.bg svg:nth-child(5){
+    animation-delay: 6s;
+}
+.bg svg:nth-child(6){
+    animation-delay: 2s;
+}
+.bg svg:nth-child(7){
+    animation-delay: 15s;
+}
+.bg svg:nth-child(8){
+    animation-delay: 8s;
+}
+.bg svg:nth-child(9){
+    animation-delay: 100ms;
+}
+.bg svg:nth-child(10){
+    animation-delay: 6s;
+}
+.bg svg:nth-child(11){
+    animation-delay: 2s;
+}
+.bg svg:nth-child(12){
+    animation-delay: 11s;
+}
+.bg svg:nth-child(13){
+    animation-delay: 7s;
+}
+.bg svg:nth-child(14){
+    animation-delay: 300ms;
+}
+.bg svg:nth-child(15){
+    animation-delay: 14s;
+}
+.bg svg:nth-child(16){
+    animation-delay: 12s;
+}
+.bg svg:nth-child(17){
+    animation-delay: 666ms;
+}
+.bg svg:nth-child(18){
+    animation-delay: 20s;
+}
+.bg svg:nth-child(19){
+    animation-delay: 30s;
+}
+.bg svg:nth-child(20){
+    animation-delay: 1s;
+}
+.bg svg:nth-child(21){
+    animation-delay: 16s;
+}
+.bg svg:nth-child(22){
+    animation-delay: 5s;
+}
+.bg svg:nth-child(23){
+    animation-delay: 9s;
+}
+.bg svg:nth-child(24){
+    animation-delay: 4s;
+}
+.bg svg:nth-child(25){
+    animation-delay: 2s;
+}
+.bg svg:nth-child(26){
+    animation-delay: 5s;
+}
+.bg svg:nth-child(27){
+    animation-delay: 1s;
+}
+.bg svg:nth-child(28){
+    animation-delay: 5s;
+}
+.bg svg:nth-child(29){
+    animation-delay: 8s;
+}
+.bg svg:nth-child(30){
+    animation-delay: 2s;
+}
+.bg svg:nth-child(31){
+    animation-delay: 7s;
+}
+.bg svg:nth-child(32){
+    animation-delay: 9s;
+}
+.bg svg:nth-child(33){
+    animation-delay: 1ms;
+}
+.bg svg:nth-child(34){
+    animation-delay: 5s;
+}
+.bg svg:nth-child(35){
+    animation-delay: 3s;
+}
+.bg svg:nth-child(36){
+    animation-delay: 10s;
+}
+.bg svg:nth-child(37){
+    animation-delay: 6s;
+}
+.bg svg:nth-child(38){
+    animation-delay: 2s;
+}
+.bg svg:nth-child(39){
+    animation-delay: 15s;
+}
+.bg svg:nth-child(40){
+    animation-delay: 8s;
+}
+.bg svg:nth-child(41){
+    animation-delay: 9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg2{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1000;
+    left: 0;
+    justify-content: space-around;
+}
+
+
+.bg2 svg{
+    fill: white;
+    z-index: 1000;
+    width: 1rem;
+    color: white;
+    transform: scale(1);
+    position: relative;
+    opacity: 0%;
+    animation: drop 25s ease-in-out infinite;
+    filter: blur(1px);
+}
+
+.bg2 svg:nth-child(1){
+    animation-delay: 1ms;
+}
+.bg2 svg:nth-child(2){
+    animation-delay: 5s;
+}
+.bg2 svg:nth-child(3){
+    animation-delay: 3s;
+}
+.bg2 svg:nth-child(4){
+    animation-delay: 10s;
+}
+.bg2 svg:nth-child(5){
+    animation-delay: 6s;
+}
+.bg2 svg:nth-child(6){
+    animation-delay: 2s;
+}
+.bg2 svg:nth-child(7){
+    animation-delay: 15s;
+}
+.bg2 svg:nth-child(8){
+    animation-delay: 8s;
+}
+.bg2 svg:nth-child(9){
+    animation-delay: 100ms;
+}
+.bg2 svg:nth-child(10){
+    animation-delay: 6s;
+}
+.bg2 svg:nth-child(11){
+    animation-delay: 2s;
+}
+.bg2 svg:nth-child(12){
+    animation-delay: 11s;
+}
+.bg2 svg:nth-child(13){
+    animation-delay: 7s;
+}
+.bg2 svg:nth-child(14){
+    animation-delay: 300ms;
+}
+.bg2 svg:nth-child(15){
+    animation-delay: 14s;
+}
+.bg2 svg:nth-child(16){
+    animation-delay: 12s;
+}
+.bg2 svg:nth-child(17){
+    animation-delay: 666ms;
+}
+.bg2 svg:nth-child(18){
+    animation-delay: 20s;
+}
+.bg2 svg:nth-child(19){
+    animation-delay: 30s;
+}
+.bg2 svg:nth-child(20){
+    animation-delay: 1s;
+}
+.bg2 svg:nth-child(21){
+    animation-delay: 16s;
+}
+.bg2 svg:nth-child(22){
+    animation-delay: 5s;
+}
+.bg2 svg:nth-child(23){
+    animation-delay: 9s;
+}
+.bg2 svg:nth-child(24){
+    animation-delay: 4s;
+}
+.bg2 svg:nth-child(25){
+    animation-delay: 2s;
+}
+.bg2 svg:nth-child(26){
+    animation-delay: 5s;
+}
+.bg2 svg:nth-child(27){
+    animation-delay: 1s;
+}
+.bg2 svg:nth-child(28){
+    animation-delay: 5s;
+}
+.bg2 svg:nth-child(29){
+    animation-delay: 8s;
+}
+.bg2 svg:nth-child(30){
+    animation-delay: 2s;
+}
+.bg2 svg:nth-child(31){
+    animation-delay: 7s;
+}
+.bg2 svg:nth-child(32){
+    animation-delay: 9s;
+}
+.bg2 svg:nth-child(33){
+    animation-delay: 1ms;
+}
+.bg2 svg:nth-child(34){
+    animation-delay: 5s;
+}
+.bg2 svg:nth-child(35){
+    animation-delay: 3s;
+}
+.bg2 svg:nth-child(36){
+    animation-delay: 10s;
+}
+.bg2 svg:nth-child(37){
+    animation-delay: 6s;
+}
+.bg2 svg:nth-child(38){
+    animation-delay: 2s;
+}
+.bg2 svg:nth-child(39){
+    animation-delay: 15s;
+}
+.bg2 svg:nth-child(40){
+    animation-delay: 8s;
+}
+.bg2 svg:nth-child(41){
+    animation-delay: 9s;
+}
+
+
+@keyframes drop {
+    0%{
+        top:0vh;
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
     }
 
+    100%{
+        top:100vh;
+        opacity: 100%;
+    }
 }
