@@ -725,7 +725,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: -1000;
+    z-index: 1000;
     justify-content: space-around;
     left: 0;
 }
@@ -741,6 +741,11 @@
     opacity: 0%;
     animation: drop 20s ease-in-out infinite;
     filter: blur(1px);
+    transition: 1s;
+    &:hover{
+        transform: scale(5);
+        animation-play-state: paused;
+    }
 }
 
 .bg svg:nth-child(1){
@@ -883,7 +888,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: -1000;
+    z-index: 1000;
     left: 0;
     justify-content: space-around;
 }
@@ -899,6 +904,11 @@
     opacity: 0%;
     animation: drop 25s ease-in-out infinite;
     filter: blur(1px);
+    transition: 500ms;
+    &:hover{
+        transform: scale(5);
+        animation-play-state: paused;
+    }
 }
 
 .bg2 svg:nth-child(1){
