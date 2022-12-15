@@ -1,7 +1,4 @@
-
-
-
-.bg2{
+.bg2 {
     display: flex;
     width: 100%;
     position: fixed;
@@ -12,7 +9,7 @@
 }
 
 
-.bg2 div{
+.bg2 div {
     fill: yellow;
     z-index: -1000;
     width: 1rem;
@@ -22,150 +19,225 @@
     animation: drop 10s ease-in-out infinite;
 }
 
-.bg2 div:nth-child(1){
+.bg2 div:nth-child(1) {
     animation-delay: 1ms;
 }
-.bg2 div:nth-child(2){
+
+.bg2 div:nth-child(2) {
     animation-delay: 5s;
 }
-.bg2 div:nth-child(3){
+
+.bg2 div:nth-child(3) {
     animation-delay: 3s;
 }
-.bg2 div:nth-child(4){
+
+.bg2 div:nth-child(4) {
     animation-delay: 10s;
 }
-.bg2 div:nth-child(5){
+
+.bg2 div:nth-child(5) {
     animation-delay: 6s;
 }
-.bg2 div:nth-child(6){
+
+.bg2 div:nth-child(6) {
     animation-delay: 2s;
 }
-.bg2 div:nth-child(7){
+
+.bg2 div:nth-child(7) {
     animation-delay: 15s;
 }
-.bg2 div:nth-child(8){
+
+.bg2 div:nth-child(8) {
     animation-delay: 8s;
 }
-.bg2 div:nth-child(9){
+
+.bg2 div:nth-child(9) {
     animation-delay: 100ms;
 }
-.bg2 div:nth-child(10){
+
+.bg2 div:nth-child(10) {
     animation-delay: 6s;
 }
-.bg2 div:nth-child(11){
+
+.bg2 div:nth-child(11) {
     animation-delay: 2s;
 }
-.bg2 div:nth-child(12){
+
+.bg2 div:nth-child(12) {
     animation-delay: 11s;
 }
-.bg2 div:nth-child(13){
+
+.bg2 div:nth-child(13) {
     animation-delay: 7s;
 }
-.bg2 div:nth-child(14){
+
+.bg2 div:nth-child(14) {
     animation-delay: 300ms;
 }
-.bg2 div:nth-child(15){
+
+.bg2 div:nth-child(15) {
     animation-delay: 14s;
 }
-.bg2 div:nth-child(16){
+
+.bg2 div:nth-child(16) {
     animation-delay: 12s;
 }
-.bg2 div:nth-child(17){
+
+.bg2 div:nth-child(17) {
     animation-delay: 666ms;
 }
-.bg2 div:nth-child(18){
+
+.bg2 div:nth-child(18) {
     animation-delay: 20s;
 }
-.bg2 div:nth-child(19){
+
+.bg2 div:nth-child(19) {
     animation-delay: 30s;
 }
-.bg2 div:nth-child(20){
+
+.bg2 div:nth-child(20) {
     animation-delay: 1s;
 }
-.bg2 div:nth-child(21){
+
+.bg2 div:nth-child(21) {
     animation-delay: 16s;
 }
-.bg2 div:nth-child(22){
+
+.bg2 div:nth-child(22) {
     animation-delay: 5s;
 }
-.bg2 div:nth-child(23){
+
+.bg2 div:nth-child(23) {
     animation-delay: 9s;
 }
-.bg2 div:nth-child(24){
+
+.bg2 div:nth-child(24) {
     animation-delay: 4s;
 }
-.bg2 div:nth-child(25){
+
+.bg2 div:nth-child(25) {
     animation-delay: 2s;
 }
-.bg2 div:nth-child(26){
+
+.bg2 div:nth-child(26) {
     animation-delay: 5s;
 }
-.bg2 div:nth-child(27){
+
+.bg2 div:nth-child(27) {
     animation-delay: 1s;
 }
-.bg2 div:nth-child(28){
+
+.bg2 div:nth-child(28) {
     animation-delay: 5s;
 }
-.bg2 div:nth-child(29){
+
+.bg2 div:nth-child(29) {
     animation-delay: 8s;
 }
-.bg2 div:nth-child(30){
+
+.bg2 div:nth-child(30) {
     animation-delay: 2s;
 }
-.bg2 div:nth-child(31){
+
+.bg2 div:nth-child(31) {
     animation-delay: 7s;
 }
-.bg2 div:nth-child(32){
+
+.bg2 div:nth-child(32) {
     animation-delay: 9s;
 }
-.bg2 div:nth-child(33){
+
+.bg2 div:nth-child(33) {
     animation-delay: 1ms;
 }
-.bg2 div:nth-child(34){
+
+.bg2 div:nth-child(34) {
     animation-delay: 5s;
 }
-.bg2 div:nth-child(35){
+
+.bg2 div:nth-child(35) {
     animation-delay: 3s;
 }
-.bg2 div:nth-child(36){
+
+.bg2 div:nth-child(36) {
     animation-delay: 10s;
 }
-.bg2 div:nth-child(37){
+
+.bg2 div:nth-child(37) {
     animation-delay: 6s;
 }
-.bg2 div:nth-child(38){
+
+.bg2 div:nth-child(38) {
     animation-delay: 2s;
 }
-.bg2 div:nth-child(39){
+
+.bg2 div:nth-child(39) {
     animation-delay: 15s;
 }
-.bg2 div:nth-child(40){
+
+.bg2 div:nth-child(40) {
     animation-delay: 8s;
 }
-.bg2 div:nth-child(41){
+
+.bg2 div:nth-child(41) {
     animation-delay: 9s;
 }
 
 
 @keyframes drop {
-    0%{
-        top:0vh;
+    0% {
+        top: 0vh;
         transform: scale(0);
     }
-    5%{
+
+    5% {
         transform: scale(2);
     }
-    45%{
+
+    45% {
         transform: scale(2);
     }
-    50%{
+
+    50% {
         transform: scale(10) rotateZ(10deg);
     }
-    55%{
-       transform: scale(2);
-    }
-    100%{
-        top:100vh;
+
+    55% {
         transform: scale(2);
+    }
+
+    100% {
+        top: 100vh;
+        transform: scale(2);
+    }
+}
+
+
+main {
+    text-align: center;
+
+    a {
+        border: 2px solid rgba(255, 255, 255);
+        padding: 1em;
+        display: block;
+        max-width: 100%;
+        margin: 1em;
+        border-radius: 10px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+        text-shadow: 0px 0px 10px white;
+        transition: 500ms;
+        background: linear-gradient(to right,black,black,white,white);
+        background-size: 200%;
+        background-position: left;
+        &:hover {
+            color: black;
+            background-position: right;
+            box-shadow: 0px 0px 10px white, 0px 0px 10px rgb(0, 0, 0) inset;
+            text-shadow: 0px 0px 10px black;
+        }
     }
 }
