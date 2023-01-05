@@ -16,18 +16,18 @@ export class CubeComponent implements OnInit, AfterViewInit {
 
   //* Cube Properties
 
-  @Input() public rotationSpeedX: number = 0.05;
+  @Input() public rotationSpeedX: number = 0.01;
 
   @Input() public rotationSpeedY: number = 0.01;
+  @Input() public rotationSpeedZ: number = 0.01;
 
-  @Input() public size: number = 200;
 
-  @Input() public texture: string = "/assets/texture.png";
+  @Input() public size: number = 100;
 
 
   //* Stage Properties
 
-  @Input() public cameraZ: number = 400;
+  @Input() public cameraZ: number = 500;
 
   @Input() public fieldOfView: number = 1;
 
@@ -43,8 +43,8 @@ export class CubeComponent implements OnInit, AfterViewInit {
     return this.canvasRef.nativeElement;
   }
   private loader = new THREE.TextureLoader();
-  private geometry = new THREE.BoxGeometry(1, 1, 1);
-  private material = new THREE.MeshBasicMaterial({ map: this.loader.load(this.texture) });
+  private geometry = new THREE.TorusGeometry( 2.4, 1, 20, 100 );
+  private material = new THREE.MeshBasicMaterial({color : 0x008000 , wireframe : true});
 
   private cube: THREE.Mesh = new THREE.Mesh(this.geometry, this.material);
 
@@ -61,6 +61,8 @@ export class CubeComponent implements OnInit, AfterViewInit {
   private animateCube() {
     this.cube.rotation.x += this.rotationSpeedX;
     this.cube.rotation.y += this.rotationSpeedY;
+    this.cube.rotation.z+= this.rotationSpeedZ;
+
   }
 
   /**
