@@ -1,14 +1,14 @@
 #canvas{
     width: 100%;
     position: relative;
-    animation: move 20s infinite alternate;
+    animation: move 15s infinite alternate;
 }
 
 @keyframes move {
     0%{
-        translate: -500px;
+        translate: 600px;
     }
     100%{
-        translate: 500px;
+        translate: -600px;
     }
 }

@@ -1,12 +1,11 @@
 import { Component , AfterViewInit , ElementRef , Input , OnInit , ViewChild } from '@angular/core';
 import * as THREE from 'three';
-
 @Component({
-  selector: 'app-anime4',
-  templateUrl: './anime4.component.html',
-  styleUrls: ['./anime4.component.scss']
+  selector: 'app-anime5',
+  templateUrl: './anime5.component.html',
+  styleUrls: ['./anime5.component.scss']
 })
-export class Anime4Component implements OnInit, AfterViewInit  {
+export class Anime5Component {
 
   @ViewChild('canvas')
   private canvasRef: any;
@@ -102,7 +101,7 @@ export class Anime4Component implements OnInit, AfterViewInit  {
     this.renderer.setPixelRatio(devicePixelRatio);
     this.renderer.setSize(this.canvas.clientWidth, this.canvas.clientHeight);
 
-    let component: Anime4Component = this;
+    let component: Anime5Component = this;
     (function render() {
       requestAnimationFrame(render);
       component.animateCube();
