@@ -8,4 +8,11 @@ body{
     width: 100%;
     height: 100%;
     background-color: black;
+    box-sizing: border-box;
+}
+
+
+app-anime1{
+    width: 100vw !important; 
+    height: 100vh;
 }

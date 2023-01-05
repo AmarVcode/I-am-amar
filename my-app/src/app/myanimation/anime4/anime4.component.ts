@@ -2,14 +2,11 @@ import { Component , AfterViewInit , ElementRef , Input , OnInit , ViewChild } f
 import * as THREE from 'three';
 
 @Component({
-  selector: 'app-cube',
-  templateUrl: './cube.component.html',
-  styleUrls: ['./cube.component.scss']
+  selector: 'app-anime4',
+  templateUrl: './anime4.component.html',
+  styleUrls: ['./anime4.component.scss']
 })
-
-
-
-export class CubeComponent implements OnInit, AfterViewInit {
+export class Anime4Component implements OnInit, AfterViewInit  {
 
   @ViewChild('canvas')
   private canvasRef: any;
@@ -43,8 +40,8 @@ export class CubeComponent implements OnInit, AfterViewInit {
     return this.canvasRef.nativeElement;
   }
   private loader = new THREE.TextureLoader();
-  private geometry = new THREE.TorusGeometry( 2.4, 1, 20, 100 );
-  private material = new THREE.MeshBasicMaterial({color : 0x008000 , wireframe : true});
+  private geometry = new THREE.TorusGeometry( 2.4, 1, 20, 50 );
+  private material = new THREE.MeshBasicMaterial({color : 'lime' , wireframe : true});
 
   private cube: THREE.Mesh = new THREE.Mesh(this.geometry, this.material);
 
@@ -104,7 +101,7 @@ export class CubeComponent implements OnInit, AfterViewInit {
     this.renderer.setPixelRatio(devicePixelRatio);
     this.renderer.setSize(this.canvas.clientWidth, this.canvas.clientHeight);
 
-    let component: CubeComponent = this;
+    let component: Anime4Component = this;
     (function render() {
       requestAnimationFrame(render);
       component.animateCube();
@@ -122,5 +119,4 @@ export class CubeComponent implements OnInit, AfterViewInit {
     this.createScene();
     this.startRenderingLoop();
   }
-
 }
