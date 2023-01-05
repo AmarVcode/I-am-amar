@@ -22,7 +22,7 @@ export class CubeComponent implements OnInit, AfterViewInit {
 
   @Input() public size: number = 200;
 
-  @Input() public texture: string = "/assets/texture.jpg";
+  @Input() public texture: string = "/assets/texture.png";
 
 
   //* Stage Properties
