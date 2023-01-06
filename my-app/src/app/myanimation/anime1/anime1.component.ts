@@ -109,7 +109,25 @@ export class Anime1Component implements OnInit, AfterViewInit  {
     }());
   }
 
-  constructor() { }
+
+  move(){
+    let obj:any=document.getElementById("canvas")
+    obj.style.transform='translate(300px)'
+    }
+
+    remove(){
+      let obj:any=document.getElementById("canvas")
+      obj.style.transform='translate(-200px)'
+
+    }
+  constructor() { 
+
+   
+
+  }
+
+
+
 
   ngOnInit(): void {
 
