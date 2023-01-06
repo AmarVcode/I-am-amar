@@ -40,7 +40,7 @@ export class Anime1Component implements OnInit, AfterViewInit  {
     return this.canvasRef.nativeElement;
   }
   private loader = new THREE.TextureLoader();
-  private geometry = new THREE.SphereGeometry( 4, 32, 200 );
+  private geometry = new THREE.SphereGeometry( 4, 100, 400);
   private material = new THREE.MeshBasicMaterial({map: this.loader.load(this.texture) , wireframe:true});
 
   private cube: THREE.Mesh = new THREE.Mesh(this.geometry, this.material);
@@ -110,16 +110,7 @@ export class Anime1Component implements OnInit, AfterViewInit  {
   }
 
 
-  move(){
-    let obj:any=document.getElementById("canvas")
-    obj.style.transform='translate(300px)'
-    }
 
-    remove(){
-      let obj:any=document.getElementById("canvas")
-      obj.style.transform='translate(-200px)'
-
-    }
   constructor() { 
 
    

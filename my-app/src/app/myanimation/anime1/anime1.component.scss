@@ -2,9 +2,7 @@
     max-width: 100vw;
     min-height: 100vh;
     margin: auto;
-    position: relative;
-    border: 1px solid white;
-    transform: translate(-200px);
-    transition: 1s;
+    position: sticky;
+    top: 0px;
 }
 
