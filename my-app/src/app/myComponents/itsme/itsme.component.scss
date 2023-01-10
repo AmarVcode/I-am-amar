@@ -4,7 +4,7 @@ main {
     overflow: hidden;
 .title{
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
     padding: 1em;
@@ -43,10 +43,45 @@ main {
     }
 }
    
+.info{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 50px;
+    color: cyan;
+    text-shadow: 0px 0px 10px cyan;
+    span{
+        color: #FF355E;
+        text-shadow: 0px 0px 10px #FF355E;
+        font-weight: 600;
+    }
+    p:nth-child(even){
+        position: relative;
+        animation: left 2s;
+    }
+    p:nth-child(odd){
+        position: relative;
+        animation: right 2s;
+    }
+}
 }
 
+@keyframes left {
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0vw;
+    }
+}
 
-//slider css
+@keyframes right {
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: 0vw;
+    }
+}
 
 
 
